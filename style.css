@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    height: 100vh;
+    background-color: #fafafa;
+    font-family: 'Allerta',sans-serif;
+  }
+  #navbarMonstera{
+    height: 15vh;
+    display:grid;
+    grid-template-columns: 0.7fr 3fr 1fr;
+  
+    margin: 10px 10px;
+  }
+ #navMid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 23px;
+    font-weight: 700;
+    padding: 0 10px;
+  }
+  #navMid>div:first-child{
+    border-bottom: 1px solid #000;
+    padding-bottom: 2px
+  }
+  #navMid div{
+    letter-spacing: 1px;
+  }
+  #navFirst{
+    margin: auto;
+  }
+  #navEnd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 80px;
+    padding-top: 10px;
+  }
+  #imgMain{
+    position: absolute;
+    top: 20%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+  }
+  #midWhole{
+    margin-left: 30px;
+  }
+  #monstera{
+    margin-top: 130px;
+    font-size: 120px;
+    
+    font-family: 'Montserrat',sans-serif;
+  }
+  #midWholePart11{
+    font-family: 'Allerta',sans-serif;
+    margin-left: 30px;
+  }
+  li{
+    padding-left: 10px;
+    font-size: 15px;
+  }
+  li:last-child{
+    margin-right: 60%;
+  }
+  #midWholePart121{
+    background-color: #2d4a34;
+    margin-top: 70px;
+    margin-left: 40px;
+    display: flex;
+    width: 290px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 19px;
+    padding: 15px 15px;
+    border-radius: 50px;
+  }
+  #midWholePart121 div h1{
+    font-weight: 300;
+    font-family: 'Allerat',sans-serif;
+  }
+  #midWholePart122{
+    
+    margin-left: 25px;
+    padding-top: 7px;
+  }
+  #midWholePart13{
+    display: flex;
+    width: 65%;
+    margin-left: 30px;
+    margin-top: 100px;
+  }
+  .midWholePart13Parts{
+    display: flex;
+    flex-direction: row;
+  }
+  .midWholePart13Parts>div:last-child{
+    margin: 0 30px 0 10px;
+    
+  }
+  .text{
+    font-size: 13px;
+  }
+  .midWholePart13Parts div h4{
+    font-size: 25px;
+  }
+  
